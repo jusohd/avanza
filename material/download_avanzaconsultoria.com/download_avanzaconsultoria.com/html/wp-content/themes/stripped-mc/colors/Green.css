@@ -1,0 +1,57 @@
+/*********************************************
+		Link Styles
+*********************************************/
+a {
+	color: #449C41;
+	text-decoration: none;
+}
+a:hover { color: #449C41; text-decoration: underline; }
+
+/*********************************************
+		Header Styles
+*********************************************/
+#header {
+	border-bottom: 5px solid #68B341;
+	background: #449C41;
+}
+h1 { /* This style used as the post titles on homepage/archive */
+	border-bottom: 3px solid #449C41;
+}
+h2 { /* This style used as header in the sidebars */
+	border-top: 3px solid #449C41;
+}
+h3 { /* This style used as the post titles on homepage/archive */
+	border-bottom: 3px solid #449C41;
+}
+/*********************************************
+		Post Meta Styles
+*********************************************/
+.meta li {
+	border-bottom: 1px solid #68B341;
+}
+.meta li.meta-author {
+	border-bottom: 3px solid #449C41;
+}
+
+/*********************************************
+		Comment Styles
+*********************************************/
+#comments .even, #comments .odd {
+	border-top: 3px solid #449C41;
+}
+#comments .odd { /* use this if you want to style odd comments */
+}
+.commentmeta li {
+	border-bottom: 1px solid #68B341;
+}
+.commentmeta li.meta-author {
+	border-top: 3px solid #449C41;
+}
+
+/*********************************************
+		Footer Styles
+*********************************************/
+#footer {
+	border-top: 5px solid #68B341;
+	background: #449C41;
+}

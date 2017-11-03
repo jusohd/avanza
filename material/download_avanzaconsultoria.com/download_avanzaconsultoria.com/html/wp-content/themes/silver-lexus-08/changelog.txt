@@ -1,0 +1,107 @@
+Silver Lexus Wordpress theme changelog.
+
+TO-DO           -   Need to fix breadcrumbs code as it can get messed up
+                    depending on the Permalink Structure.
+
+
+
+****** Version 0.8 ******
+
+1. Original Version
+
+****** Version 0.9b ******
+
+1. page.php     Bug Fix
+                -   Added the display of comments to pages. (Thanks to
+                    Marek and Garry Conn for pointing it out)
+
+2. footer.php   Updated
+                -   Moved Navigation from footer to header.php to fix
+                    display issues if site has a number of pages.
+
+3. header.php   Updated
+                -   Moved Navigation code to the header. - Added link to
+                    shortcut icon (favicon) and javascript to allow drop
+                    downs to function in IE5/6.
+
+4. style.css    Updated
+                -   Changed various font, headings, and anchor colours to
+                    be slight darker.
+
+                -   Set min-width of #nav to 1000px to combat navigation
+                    jumping to next line if screen width is too narrow.
+
+                -   Changed #navigation to display: block and removed
+                    position: absolute as it isn't needed anymore.
+
+                -   Changed height of #headerimage to 180px. Also changed
+                    padding of #newheader h1.
+
+                -   Added border-top and border-bottom to #newheader h1 a:hover
+
+5. lexus.js     New
+                - Added javascript to allow drop downs to function in IE5/6.
+
+
+****** Version 0.9d ******
+
+1. style.css    Bug Fix
+                -   Added workarounds for the display of Widgets. Should
+                    display Widgets correctly now. Might act weird on the
+                    odd Widget, but seems fine on the popular Widgets.
+
+                -   Changed the .calendar class to #wp-calendar id to fix the display of
+                    the Widget calendar.
+
+                -   Added #submit to cursor: pointer; for the
+                    comment submit button.
+
+                -   Changed the padding on #column1 ul li and #column1 ol li to 0.2em.
+
+                -   Changed #column1 ol/ul to show border-top and border-bottom on lists.
+
+                -   Added hr style to display horizontal rules in Firefox. (Thanks Marek)
+
+                -   Added background image to #nav li ul
+
+****** Version 0.9e ******
+
+1. style.css    Updated
+                -   Moved Widget Styles to widgets.css. If person doesn't
+                    have any Widgets installed, there's no point having them
+                    in the style.css file.
+
+2. widgets.css  New
+                -   Moved Widget Styles from style.css.
+
+3. header.php   Updated
+                -   Added an if function_exists('dynamic_sidebar'). If the
+                    dynamic_sidebar does exist, then load the widgets.css styles.
+
+4. sidebar.php  Updated
+                -   Added Adsense code. Default is commented out. Make sure you
+                    update your google_ad_client.
+
+5. functions.php Updated
+                -   Added new function first_year which will display the year
+                    of the first post, and the current year in the footer.php file.
+
+6. footer.php   Updated
+                -   Changed the copyright years to use function first_year().
+
+****** Version 0.9f ******
+
+1. functions.php Bug Fix
+                -   Fixed up odd issue of first post's date being displayed
+                    as '0' in function first_year().
+
+****** Version 1.0a ******
+
+1. style.css Bug Fixes
+                -   Fixed and added a bunch of styles to fix the liquid layout
+                    problems in IE5/6
+
+2. Too many changes!
+                -   We've had to redo a bunch of stuff on almost all the
+                    templates.
+

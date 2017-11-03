@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: Hyperspace/comments.php:21
+msgid "% Responses"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/single.php:36
+#: Hyperspace/page.php:35
+#: Hyperspace/page-full.php:37
+#: Hyperspace/includes/icore/widgets/widget-recentposts.php:45
+#: Hyperspace/content.php:14
+#: Hyperspace/content.php:38
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/single.php:36
+#: Hyperspace/page.php:35
+#: Hyperspace/page-full.php:37
+#: Hyperspace/includes/icore/widgets/widget-recentposts.php:45
+#: Hyperspace/content.php:14
+#: Hyperspace/content.php:38
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Add Gallery"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Add New Category"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:86
+msgid "Add Your Comment"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "All Categories"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "All Galleries"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-customizer.php:1
+msgid "Appearance"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/comments.php:21
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/comments.php:57
+msgid "Comments are closed for this page."
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-customizer.php:1
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-customizer.php:1
+msgid "Display Search Bar"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Edit Category"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Edit Gallery"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:65
+msgid "Email (required)"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/includes/icore/widgets/widget-twitter.php:74
+msgid "Follow"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Galleries"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Gallery"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:86
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/header.php:62
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:65
+msgid "Name (required)"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-functions.php:1
+msgid "Navigation Menu"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "New Category Name"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/navigation.php:3
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "No Galleries found"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:21
+msgid "No Responses"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/no-results.php:2
+msgid "No Results Found"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:21
+msgid "One Response"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/header.php:10
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Parent Category"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Parent Category:"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/single.php:36
+#: Hyperspace/page.php:35
+#: Hyperspace/page-full.php:37
+#: Hyperspace/content.php:14
+msgid "Posted by "
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Search Categories"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Search Gallery"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-customizer.php:1
+msgid "Select color scheme"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/single-gallery.php:45
+#: Hyperspace/single.php:42
+#: Hyperspace/page.php:41
+#: Hyperspace/page-full.php:43
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:86
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/no-results.php:3
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/comments.php:43
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "Update Category"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-customizer.php:1
+msgid "Upload Logo"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/includes/icore/theme-taxonomies.php:1
+msgid "View Gallery"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:65
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: Hyperspace/comments.php:86
+msgid "Your email address will not be published."
+msgstr ""
+
+#. Text in function
+#: Hyperspace/single.php:36
+#: Hyperspace/page.php:35
+#: Hyperspace/page-full.php:37
+#: Hyperspace/includes/icore/widgets/widget-recentposts.php:45
+#: Hyperspace/content.php:14
+#: Hyperspace/content.php:38
+msgid "comments"
+msgstr ""
+
+#. Text in echo
+#: Hyperspace/single.php:36
+#: Hyperspace/content.php:14
+msgid "in "
+msgstr ""
+

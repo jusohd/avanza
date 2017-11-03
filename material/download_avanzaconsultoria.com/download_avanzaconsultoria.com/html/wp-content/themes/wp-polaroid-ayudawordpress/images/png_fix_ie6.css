@@ -1,0 +1,20 @@
+div#page{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://localhost/testblog/wp-content/themes/polaroidv2/images/page-bgr.png,sizingMethod='scale');
+}
+div#page-top{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://localhost/testblog/wp-content/themes/polaroidv2/images/page-top.png,sizingMethod='scale');
+}
+div#page-bot{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://localhost/testblog/wp-content/themes/polaroidv2/images/page-bot.png,sizingMethod='scale');
+}
+div#polaroids{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://localhost/testblog/wp-content/themes/polaroidv2/images/polaroids/polaroids.png,sizingMethod='scale');
+}
+div#polaroids{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://localhost/testblog/wp-content/themes/polaroidv2/images/polaroids/polaroids2.png,sizingMethod='scale');
+}

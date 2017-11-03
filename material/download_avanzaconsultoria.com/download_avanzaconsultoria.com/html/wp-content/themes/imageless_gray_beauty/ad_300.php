@@ -1,0 +1,1 @@
+<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/ad_300.jpg" alt="Ad 300x250" width="300" height="250" border="0" class="big_ad" /></a>

@@ -1,0 +1,273 @@
+/*
+
+Theme Name: Inteligencia Artificial
+Theme URI: http://ericulous.com
+Description: Tema en tonos claros, con widgets, campos de texto y cabecera personalizables. Puedes encontrar mas plantillas traducidas por Fernando en <a href="http://ayudawordpress.com/">este enlace.
+Version: 1.1 (es)
+Author: Genkisan
+Author URI: http://ericulous.com
+
+*/
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	background: #fff url(images/bg.gif) repeat-x; 
+	font: normal .7em Tahoma, Verdana, Arial, Helvetica, Sans-Serif; 
+	line-height: 1.6em; 
+	color: #333; 
+}
+
+/* LINKS AND HEADINGS STYLING */
+
+a { color: #546F92; background: inherit; }
+a:hover { color: #808080; background: inherit; }
+h1  { font: bold 2em "Trebuchet MS", Helvetica, Sans-Serif; margin: 0; color: #fff; background-color:transparent; }
+h2  { font: bold 1.4em "Trebuchet MS", Helvetica, Sans-Serif; }
+h3  { clear: both; font-size: 1.1em; color: #000; background: #fff url(images/h3bg.gif) no-repeat center left; padding: 0 14px; margin: 0;}
+blockquote {
+	margin: 10px 0 0 25px;
+	padding: 0 20px;
+	border-left: 1px solid #ccc;
+	color: #666;
+}
+.blue { color: #546F92; background: inherit; }
+.image { float: left; border: 2px solid #e2e2e2; padding: 3px; margin: 0 15px 10px 0; }
+
+
+/* CONTENT WRAPPER */
+
+#main { 
+	width: 900px; 
+	margin: 25px auto 0 auto; 
+}
+
+/* TOP LEFT LOGO */
+
+#logo { 
+	float: left; 
+	padding: 10px 0 10px 10px; 
+}
+	#logo h1 { color: #000; background: #fff; }
+	
+	#logo a { text-decoration: none; }
+
+/* TOP RIGHT HORIZONTAL MENU */
+	
+#menu { 
+	float: right; 
+	background: #fff url(images/barul.gif) no-repeat bottom right; 
+	color: #808080; 
+	padding: 18px 1px 11px 0; 
+	margin: 0; 
+}
+	#menu li { 
+		padding: 14px 18px 14px 18px; 
+		color: #444; 
+		background: #fff url(images/bar.gif) no-repeat bottom left; 
+		display: inline; 
+		margin-left: -3px;
+	}
+	#menu li.current_page_item { 
+		background: #fff url(images/baractive.gif) no-repeat bottom left; 
+		color: #8D9CAF; 
+		font-weight: bold; 
+		padding: 14px 18px 14px 18px; 
+		margin: 0 1px 0 0; 
+	}
+	#menu li:hover { 
+		background: #fff url(images/baractive.gif) no-repeat bottom left;
+	}
+	#menu li a { 
+		background: transparent; 
+		color: #888888; 
+		text-decoration: none; 
+	} 	
+	#menu li a:hover { 
+		color: #000; 
+		background: transparent;
+	} 	
+	.key { text-decoration: underline; } /* ACCESKEY UNDERLINED LETTER */
+
+/* LEFT INTRO SIDE */	
+
+#intro_left {
+	clear: left;
+	float: left;
+	width: 250px;
+	background: #8D9CAF url(images/leftintrobg.gif) repeat-x;
+	color: #E5EAF2;
+	margin: 0 0 1px 0;
+}
+	#intro_left a { color: #fff; background: inherit; }
+	#intro_left p { padding: 14px 15px; margin: 0; }
+
+	/* LEFT VERTICAL MENU */
+	
+	#menu_left { 
+		float: left;  
+		margin: 0 0 6px 0; 
+		padding: 0 0 1px 0; 
+		border-bottom: 2px solid #e2e2e2; 
+	}
+		#menu_left li { list-style: none; }
+		#menu_left li a { 
+			display: block; 
+			color: #3F5B7F; 
+			background: #C2CEDE url(images/arrow.gif) no-repeat center left; 
+			width: 204px; 
+			padding: 7px 23px 7px 23px; 
+			margin: 0 0 1px 0; 
+			font-weight: bold; 
+			text-decoration: none; 
+		}	
+		#menu_left li a:hover { background: #9EB1C9 url(images/arrow.gif) no-repeat center left; color: #fff;  }
+
+/* RIGHT INTRO SIDE */
+	
+#intro_right {
+	float: right;
+	width: 340px;
+	padding: 25px 280px 0 20px;
+	background: #BCCEDA url(images/intro.jpg) no-repeat;
+	color: #547592;
+	margin: 0 0 6px 0;
+	height: 174px;
+	border: 2px solid #e2e2e2;
+}
+	#intro_right h1 { margin: 0 0 20px 0; }
+	#intro_right .white { color: #FFF; background-color:transparent; }
+	
+/* LEFT SIDE */
+	
+#sidebar {
+	float: left;
+	width: 250px;
+}
+
+#sidebar h2 {
+	border-bottom: 1px solid #ccc;
+	margin: 0; 
+	padding : 0; 
+}
+
+#sidebar ul { 
+	margin: 0; 
+	padding : 0; 
+	list-style : none; 
+}
+
+#sidebar li {
+	list-style-type:none;
+}
+
+#sidebar li ul li{
+	list-style-type:none;
+	margin-left:20px;
+}
+	.box {
+		padding: 4px 15px;
+		border: 1px solid #ccc;
+		margin: 0 0 10px 0;
+	}
+	.note {
+		padding: 15px 15px 20px 100px;
+		border: 1px solid #CFCB66;
+		margin: 0 0 5px 0;
+		background: #FFFFAD url(images/package.gif) no-repeat;
+		color: #585616;
+	}
+
+/* RIGHT SIDE */
+
+/* Begin Comments*/
+
+.commentlist li.alt {
+	background-color:#F0F6FF;
+	}
+
+.commentlist {
+	margin:15px;
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	background: #fafafa;
+	color: #808080;
+	border: 1px solid #eeeeee;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: inline;
+	}
+/* End Comments */
+
+#right {
+	float: right;
+	width: 643px;
+}
+	.leftcol {
+		width: 610px;
+		float: left; 
+		padding: 12px 15px;
+		border:#ccc 1px solid;
+		text-align: justify;
+		margin: 0 0 10px 0;
+	}
+	.rightcol { 
+		float: right; 
+		padding: 10px 15px;
+		width: 285px; 
+		border:#ccc 1px solid;
+		margin: 0 0 10px 0;
+		}
+	.special {
+		clear: both;
+		margin:0px 0 20px 0;	
+		padding: 5px 20px;
+		border: 1px solid #ccc;
+		background: #eee;
+		color: #444;
+	}
+	
+	.metadata {
+	border-top: 1px dotted #ccc;
+	margin-bottom: 50px;
+	text-align: right;
+	}
+		
+	.alignright {
+	float: right;
+	}
+		
+	.alignleft {
+	float: left
+	}
+	
+	.navigation {
+	padding: 1px;
+	margin: 0;
+	}
+
+/* FOOTER */
+
+#footer { text-align: right; clear: both; padding: 5px; border-top: 1px solid #ccc; }

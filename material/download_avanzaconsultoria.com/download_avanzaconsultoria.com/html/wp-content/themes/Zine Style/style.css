@@ -1,0 +1,531 @@
+/*
+Theme: Zine Style
+Theme URI: http://www.cmdesignlounge.com
+Descripcion: Zine Style, plantilla estilo revista de 3, barra lateral e index personalizable. 
+Version: 1.0 (es)
+Autor URI: http://www.cmdesignlounge.com
+Autor: ChiQ M.
+*/
+
+/* main css */
+html {
+ height: 100%;
+ margin-bottom: 1px;
+}
+body {
+ margin:0;
+ padding:0;
+ color: #222222;
+ font: 12px Verdana, sans-serif;
+ background: url(images/body_bg.gif);
+}
+form {
+ margin: 0; padding: 0;
+}
+#page {
+ margin: 15px auto; padding: 0px;
+ width: 970px;
+ background: #fff;
+ border: 1px solid #C5C5C5;
+}
+#nav {
+ background: url(images/nav_bg.gif) repeat-x top left;
+ height: 36px;
+}
+#nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0px;
+}
+#nav ul ul {
+ display:none;
+}
+#nav li {
+ display: block;
+ float: left;
+ color: #ffffff;
+ background: url(images/nav_li.gif) no-repeat top right;
+}
+#nav li a {
+ color: #fff;
+ text-decoration: none;
+ display: block;
+ padding: 11px 15px;
+}
+#nav li a:hover{
+ color: #ffffff ;
+ text-decoration: none;
+ background: #000000 url(images/nav_li.gif) no-repeat top right;;
+}
+
+#nav li.current_page_item a {
+ color: #ffffff;
+ text-decoration: none;
+}
+#nav li.current_page_item a:hover {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#header {
+ height:89px;
+ margin: 0 auto;
+ padding: 20px;
+ background: url(images/header_bg.gif) repeat-x top left;
+ border-bottom: 1px solid #C5C5C5;
+ 
+}
+#top {
+ height: 20px;
+ padding: 25px 0px 0px 10px;
+ margin: 0 auto;
+ background:url(images/top_bg.gif) no-repeat bottom left;
+ width: 760px;
+ color: #D1E5F7;
+}
+#top a {
+ color: #D1E5F7;
+}
+.feed {
+ float: right;
+}
+
+#search {
+	margin: 0px 0px 0 0; padding: 0px 0px 0px 0px;
+	height: 35px;
+	color: #ccc;
+	background: url(images/search.gif) no-repeat center left;
+}
+#searchform {
+	margin: 0px auto;
+	padding: 0px 0px 0 0px; 
+	text-align: center;
+	}
+#search input#s {
+	width: 288px;
+	padding: 10px 30px;
+	border: 1px solid #C0C0C0;
+	background: none;
+	float: left;
+	color: #333333;
+}
+input#srcbtn {
+	margin-left: 5px;
+	padding-top: 4px;
+}
+#logo { 
+	float: left;
+}
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	font: 50px Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+
+#logo h1 a {
+	color: #333333;
+}
+
+#content {
+ padding: 15px;
+ margin: 0 0px 0 0;
+ float: left;
+ width: 557px;
+}
+h1 {
+	font-size: 16px;
+}
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+#wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a {
+	text-decoration: none;
+	color: #759CE5;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+/* Begin Structure */
+hr {
+ display: none;
+}
+.featured {
+ background: #EEEEEE;
+ margin:0; padding: 0px;
+ border: 1px solid #C0C0C0;
+ height: 225px;
+}
+.featured h1 {
+	padding: 10px ;
+	margin: 0;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #759CE5;
+}
+.featured img {
+	padding: 0 5px 0 0;
+}
+
+.content-left {
+	width: 290px;
+	float: left;
+	border-right: 1px dotted #B6B6B6;
+}
+.content-right {
+ padding: 0 10px;
+ float: right;
+ width: 225px;
+}
+.content-right img {
+	border: 1px solid #000;
+	padding: 3px;
+	margin-right: 5px;
+}
+.content-right div {
+	padding: 10px 0;
+	border-bottom: 1px dotted #B6B6B6;
+}
+.content-right h2 {
+ text-transform: uppercase;
+ font-size: 10px;
+ margin: 0; padding: 5px 0;
+ color: #333;
+}
+.content-right h3 {
+ font-size: 12px;
+ color: #759CE5;
+ margin: 0; padding:0;
+}
+.post {
+	padding: 10px 10px 0 10px;
+}
+
+.post-top {
+	background: #fff;
+	padding: 0 5px;
+}
+.post li {
+ margin-left: 25px;
+}
+.posted {
+ color: #C0C0C0;
+ padding: 0px 5px 0px 0px;
+}
+.posted a {
+ color: #fff;
+}
+.comments {
+	padding: 0px 0 0px 0px;
+	float: left;
+}
+.post h1 {
+ padding: 0; 
+ margin: 0;
+ font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+ color: #759CE5;
+}
+
+.read-more {
+	padding-right: 15px;
+	background: url(images/more.gif) no-repeat center right;
+}
+p.more {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+/* End Structure */
+
+/* Begin Images */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.right {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.left {
+	padding: 0px;
+	margin: 0 7px 0px 0;
+	display: inline;
+	}
+
+/* End Images */
+
+
+/* Begin Form Elements */
+
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 90%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover {
+}
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 40px;
+	background: #f1f1f1 url(images/bg_blockquote.gif) no-repeat top left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+    font: 10px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	}
+.navigation a {
+	color:#222222;
+}
+
+#sidebar {
+	color: #1E7EC3;
+	float: right;
+	width: 350px;
+	padding: 15px 20px 0px 0;
+}
+.widget {
+	border: 1px solid #C0C0C0;
+	padding: 0px;
+	margin-top: 10px;
+}
+.widget .inner {
+	border: 6px solid #FAFAFA;
+	text-align: center;
+}
+#sidebar h2 {
+	color:#333333;
+	font-size: 12px;
+	margin: 5px 0;
+	padding: 5px 0 5px 0px;
+	border-bottom: 1px dotted #B6B6B6;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin: 10px 0 10px 10px; padding: 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+#sidebar li {
+	padding: 5px 0 5px 12px;
+	margin: 0;
+	background: url(images/sidebar_li.gif) no-repeat center left;
+}
+
+#sidebar ul li.cat-item {
+	float: left;
+	width: 130px;
+}
+ul.archives li {
+	float: left;
+	width: 130px;
+}
+#sidebar li a {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar li a:hover {
+	margin: 0;
+	display: block;
+	text-decoration: none;
+}
+#sidebar ul ul {
+	display: none;
+}
+
+#sidebar .rss {
+	padding: 20px 25px;
+}
+#footer {
+ padding: 0px 0px 10px 10px;
+ height: 22px;
+ color: #333333;
+ width: 980px;
+ margin: 0 auto;
+}

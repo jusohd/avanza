@@ -1,0 +1,20 @@
+iNewspaper v1.0
+Todo esta activo salvo Adsense. Si quieres activarlo sigue leyendo...
+
+AdSense: 
+
+Para activar Adsense en la plantilla haz lo siguiente:
+
+1) Abre ads.php dentro de la carpeta de la plantilla.
+
+2) Busca: <?php $googleAdsenseId = ""; (estara en la primera linea)
+
+3) Dentro de las "", introduce tu numero de cuenta de Adsense. 
+
+4) Guarda y sube el archivo. 
+
+5) Si lo has hecho todo correctamente se mostrara Adsense en todas las paginas.
+
+6) Para quitar AdSense, solo borra el numero dentro de las "" en el archivo ads.php. Deja el resto como esta.
+
+7) Guarda y sube el archivo. 

@@ -1,0 +1,551 @@
+/*  
+Theme Name: Stripped
+Author URI: http://www.nathanrice.net/
+Version: 1.01
+Author: Nathan Rice
+Description: Stipped es una plantilla minimalista con los sidebars debajo.
+The CSS, XHTML and design is released under GPL: 
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+html, body { margin: 0; padding: 0; }
+
+body { 
+	background: #FFF;
+	font-family: Georgia, Times New Roman, Serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+body * {margin: 0px; padding: 0px;}
+
+/*********************************************
+		Link Styles
+*********************************************/
+a {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover { color: #000; text-decoration: none; }
+
+/*********************************************
+		Text Elements
+*********************************************/
+p, ul, ol, blockquote {color: #333;}
+ol, ul {
+	margin: 5px 35px;
+}
+blockquote{
+	margin: 0px 0px 0px 15px;
+	padding: 0px 45px 15px 50px;
+	background: url(images/quote.gif) no-repeat;
+	font-size: 15px;
+	font-style: italic;
+	font-family: Georgia, Times New Roman, Serif;
+	color: #666666;
+	}
+	
+blockquote p{
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	}
+img { border: 0px; background: none; }
+p {
+	padding: 10px 0px;
+	margin: 0px;
+	line-height: 20px;
+}
+.clearboth:after { content: "."; display: block; clear: both; margin: 0px; padding: 0px; height: 0; visibility: hidden; }
+/*********************************************
+		Header Styles
+*********************************************/
+h1 { /* This style used as title on single posts and pages */
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-weight: normal;
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	color: #000;
+	border-bottom: 1px solid #000; 
+	text-decoration: none;
+}
+h1 a {
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+h2 { /* This style used as header in the sidebars */
+	background: transparent;
+	font-size: 24px;
+	color: #333;
+	font-family: Georgia, "Times New Roman", Serif;
+	margin: 0px 0px 10px 0px;
+	padding: 5px;
+	border-top: 3px solid #666;
+	font-weight: normal;
+}
+h3 { /* This style used as the post titles on homepage/archive */
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 22px;
+	font-variant: small-caps;
+	font-weight: normal;
+	padding: 10px 0px 5px 0px;
+	margin: 0px;
+	color: #000;
+	border-bottom: 1px solid #000; 
+	text-decoration: none;
+}
+h3 a {
+	color: #000;
+	text-decoration: none;
+}
+h3 a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+h4 { /* This style used as title for comments and as the identifying header on archive page  */
+	clear: both;
+	font-family: Georgia, "Times New Roman", Serif;
+	font-size: 28px;
+	font-weight: normal;
+	padding: 10px 0px 25px 0px;
+	margin: 0px;
+	color: #000;
+	text-decoration: none;
+}
+
+/*********************************************
+		Container Div
+*********************************************/
+#container {
+	background: transparent;
+	border: 0px solid #000;
+	text-align: left;
+    margin: 0px auto;
+    width: 900px;
+    padding: 0px;
+}
+
+/*********************************************
+		Header Styles
+*********************************************/
+#header {
+	border: 0px solid black;
+	background: #000;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	position: relative;
+}
+/*********************************************
+		Title Styles
+*********************************************/
+#title {
+	display: block;
+	float: left;
+	width: 340px;
+	overflow: hidden;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 30px;
+	text-transform: lowercase;
+	letter-spacing: 0px;
+	color: #FFF;
+	margin: 0px; padding: 10px 0px 10px 10px;
+}
+#title a {
+	color: #FFF;
+	text-decoration: none;
+}
+#title a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/*********************************************
+		Horizontal Navigaion Styles
+*********************************************/
+#menu {
+	display: block;
+	float: right;
+	width: 550px;
+	color: #FFF;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Serif;
+	text-align: left;	
+	text-transform: lowercase;
+	padding: 20px 0px 0px 0px;
+	margin: 0px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: right;
+	}
+#menu ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0px;
+	margin: 5px 12px;
+	}
+#menu ul li a {
+	color: #F0FFF0;
+	margin: 0px; padding: 0px;
+	text-decoration: none;
+	}
+/* if you want to set a "current page item" style, do it here */
+#menu ul li.current_page_item a, #menu ul li.current_page_item a:visited {
+
+}
+#menu ul li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 2px solid #FFF;
+	}
+	
+/*********************************************
+		Content Div
+*********************************************/
+#content {
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 40px 0px;
+	width: 900px;
+	display: block;
+	border: 0px solid black;
+}
+.post-more { /* Use this class to style the "more" tag */
+}
+
+/*********************************************
+		Post Div
+*********************************************/
+.postwrap {
+	clear: both;
+	width: 900px;
+}
+.post {
+	clear: both;
+	display: block;
+	float: left;
+	width: 650px;
+	margin: 0px; padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+.post p {
+	padding: 10px 30px 10px 0px;
+}
+
+
+/*********************************************
+		Post Meta Styles
+*********************************************/
+.meta {
+	display: block;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	float: right;
+	width: 250px;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 10px;
+	color: #999;
+}
+.meta a {
+	color: #333;
+	text-decoration: underline;
+}
+.meta a:hover { color: #000; text-decoration: none; }
+.meta ul {
+	list-style-type: none;
+	margin: 0px;
+}
+.meta li {
+	border-bottom: 1px solid #CCC;
+	padding: 9px 0px 5px 10px;
+	margin: 0px;
+}
+.meta li.meta-author {
+	border-bottom: 1px solid #333;
+	margin: 0px;
+}
+.meta-date {
+	margin: 0px 5px;
+}
+.meta-author {
+	margin: 0px 5px;
+}
+.meta-comments {
+	margin: 0px 5px;
+}
+.meta-category {
+	margin: 0px 5px;
+}
+
+/*********************************************
+		Previous/Next Page Navigation
+*********************************************/
+.page-nav {
+	clear: both; /* To clear any floats */
+	margin: 10px 0px;
+	padding: 10px 0px;
+	width: 625px;
+}
+.nav-previous {
+	width: 249px; 
+	float: left; 
+	text-align: left;
+}
+.nav-next {
+	width: 249px; 
+	float: right; 
+	text-align: right;
+}
+	
+/*********************************************
+		Left Sidebar
+*********************************************/
+#l_sidebar {
+	display: inline;
+	float: left;
+	border: 0px solid black;
+	width: 280px;
+	margin: 0px 0px 15px 0px; padding: 0px;
+	display: block; /* floats are handled as block elements, this is to fix 
+						a margin collapsing bug in IE */
+}
+#l_sidebar p {
+	padding: 5px;
+}
+#l_sidebar img {
+	text-align: center;
+}
+#l_sidebar form {
+	padding: 0px;
+	margin: 5px;
+}
+#l_sidebar ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#l_sidebar ul li {
+	padding: 0px 0px 10px 0px;
+}
+#l_sidebar ul li ul {
+	padding: 0px 0px 0px 0px;
+}
+#l_sidebar ul li ul li {
+	padding: 0px;
+	margin: 5px;
+}
+#l_sidebar ul li ul li a {
+	color: #333;
+	text-decoration: none;
+}
+#l_sidebar ul li ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#l_sidebar ul li ul li ul {
+	padding: 0px;
+	margin: 0px;
+}
+#l_sidebar ul li ul li ul li {
+	padding: 0px;
+	margin: 5px 10px 5px 5px;
+}
+
+/*********************************************
+		Middle Sidebar
+*********************************************/
+#m_sidebar {
+	display: inline;
+	float: left;
+	border: 0px solid black;
+	width: 280px;
+	margin: 0px 0px 15px 0px; padding: 0px 30px 0px 30px;
+	display: block; /* floats are handled as block elements, this is to fix 
+							   a margin collapsing bug in IE */
+}
+#m_sidebar p {
+	padding: 5px;
+}
+#m_sidebar img {
+	text-align: center;
+}
+#m_sidebar form {
+	padding: 0px;
+	margin: 5px;
+}
+#m_sidebar ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#m_sidebar ul li {
+	padding: 0px 0px 10px 0px;
+}
+#m_sidebar ul li ul {
+	padding: 0px 0px 0px 0px;
+}
+#m_sidebar ul li ul li {
+	padding: 0px;
+	margin: 5px;
+}
+#m_sidebar ul li ul li a {
+	color: #333;
+	text-decoration: none;
+}
+#m_sidebar ul li ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#m_sidebar ul li ul li ul {
+	padding: 0px;
+	margin: 0px;
+}
+#m_sidebar ul li ul li ul li {
+	padding: 0px;
+	margin: 5px 10px 5px 5px;
+}
+
+/*********************************************
+		Right Sidebar
+*********************************************/
+#r_sidebar {
+	display: inline;
+	float: right;
+	border: 0px solid black;
+	width: 280px;
+	margin: 0px 0px 15px 0px; padding: 0px;
+	display: block; /* floats are handled as block elements, this is to fix 
+							   a margin collapsing bug in IE */
+}
+#r_sidebar p {
+	padding: 5px;
+}
+#r_sidebar img {
+	text-align: center;
+}
+#r_sidebar form {
+	padding: 0px;
+	margin: 5px;
+}
+#r_sidebar ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#r_sidebar ul li {
+	padding: 0px 0px 10px 0px;
+}
+#r_sidebar ul li ul {
+	padding: 0px 0px 0px 0px;
+}
+#r_sidebar ul li ul li {
+	padding: 0px;
+	margin: 5px;
+}
+#r_sidebar ul li ul li a {
+	color: #333;
+	text-decoration: none;
+}
+#r_sidebar ul li ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#r_sidebar ul li ul li ul {
+	padding: 0px;
+	margin: 0px;
+}
+#r_sidebar ul li ul li ul li {
+	padding: 0px;
+	margin: 5px 10px 5px 5px;
+}
+
+/*********************************************
+		Comment Styles
+*********************************************/
+#comments {
+	padding: 20px 0px; margin: 0px;
+	clear: both;
+}
+#comments .commentwrap {
+	clear: both;
+	width: 900px;
+}
+#comments .even, #comments .odd {
+	clear: both;
+	display: block;
+	margin: 10px 0px;
+	padding: 0px 50px 0px 0px;
+	width: 600px;
+	background: #FFFFFF;
+	overflow: hidden;
+	border-top: 1px solid #000;
+	float: left;
+}
+#comments .odd { /* use this if you want to style odd comments */
+}
+#comments .commentmeta {
+	display: block;
+	padding: 0px;
+	margin: 10px 0px;
+	float: right;
+	width: 250px;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 10px;
+	color: #999;
+}
+.commentmeta ul {
+	list-style-type: none;
+	margin: 0px; padding: 0px;
+}
+.commentmeta li {
+	border-bottom: 1px solid #CCC;
+	padding: 9px 0px 5px 10px;
+	margin: 0px;
+}
+.commentmeta li.meta-author {
+	border-top: 1px solid #333;
+	margin: 0px;
+}
+.commentmeta li.meta-date {
+	margin: 0px 0px;
+}
+.commentmeta li.meta-time {
+	margin: 0px 0px;
+}
+
+
+/*********************************************
+		Footer Styles
+*********************************************/
+#footer {
+	margin: 15px 0px 0px 0px;
+	padding: 20px;
+	clear: both;
+	background: #000;
+	color: #FFF;
+	border-top: 0px solid #697279;
+	text-align: center;
+}
+#footer a {
+	color: #FFF;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+#footer .left {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+#footer .right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}

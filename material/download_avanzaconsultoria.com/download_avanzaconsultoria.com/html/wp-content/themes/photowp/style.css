@@ -1,0 +1,271 @@
+/*
+THEME NAME: PhotoWP
+THEME URI: http://www.stevencampbell.org/
+DESCRIPTION: Plantilla para fotoblogs. Puedes encontrar mas plantillas traducidas por Fernando en <a href="http://ayudawordpress.com/">este enlace</a>.
+VERSION: 0.1 (es)
+AUTHOR: Steven Campbell
+AUTHOR URI: http://www.stevencampbell.org/
+*/
+
+body {
+	font: 12px/19px 'Trebuchet MS', Verdana, Arial, sans-serif;
+	color: #f1f1f1;
+	background: #222;
+	margin: 0;
+	padding: 0;
+	}
+	
+html {
+	margin: 0;
+	padding: 0; 
+	}
+	
+br.clear {
+	clear: both;
+	}
+	
+a, a:visited, a:hover {
+	color: #ccc;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
+	
+/* LAYER 1 */
+#layer1 {
+	background: #444; 
+	}
+	
+.header {
+	width: 600px;
+	margin: 0 auto;
+	padding: 15px 0;
+	}
+	
+.header h1 {
+	margin: 5px 0 0;
+	padding: 10px;
+	display: inline; 
+	font-size: 24px;
+	}
+	
+.header ul#menu {
+	display: inline;
+	border-left: 1px solid #e2e2e2;
+	padding: 6px 10px;
+	}
+	
+.header ul#menu li {
+	display: inline; 
+	padding: 6px;
+	text-transform: lowercase;
+	}
+	
+.header ul#menu li a, .header ul#menu li a:hover {
+	}
+	
+.header ul#menu li a:hover {
+	
+	}
+	
+/* LAYER 2 */
+#layer2 {
+	}
+	
+.photo {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	background: #1a1a1a;
+	padding: 15px 0;
+	}
+	
+.photo img {
+	text-align: center;
+	}
+	
+/* LAYER 3 */
+#layer3 {
+	background: #111;
+	padding: 6px 0;
+	}
+	
+ul.description {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	}
+	
+ul.description li {
+	list-style: none;
+	color: #ccc;
+	}
+	
+ul.description li span {
+	font-weight: bold;
+	color: #f1f1f1;
+	}
+	
+ul.description li#title, .comments h3 {
+	color: #f1f1f1;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 3px;
+	}
+	
+ul.description li#title #flickr {
+	font-size: 12px;
+	font-weight: normal;
+	}
+	
+ul.description li#title #flickr a {
+	text-decoration: none;
+	}
+	
+ul.description li#date, ul.description li#camera, ul.description li#lens {
+	clear: right;
+	}
+
+ul.description li#desc {
+	
+	}
+	
+ul.description li a {
+	
+	}
+	
+ul.description li a:hover {
+	
+	}
+	
+/* LAYER 4 */
+#layer4 {
+	background: #1d1d1d;
+	padding: 3px 0;
+	border-top: 1px solid #232323;
+	border-bottom: 1px solid #232323;
+	}
+	
+#layer4 a {
+	text-decoration: none;
+	padding: 5px 6px;
+	}
+	
+#layer4 a:hover {
+	
+	}
+	
+.nav {
+	width: 600px;
+	margin: 0 auto;
+	}
+	
+.nav #prev {
+	float: left;
+	}
+	
+.nav #archive {
+	text-align: center;
+	}
+	
+.nav #next {
+	float: right;
+	margin-top: -1.6em;
+	}
+	
+/* LAYER 5 */
+#layer5 {
+	clear: both;
+	background: #151515;
+	padding: 8px 0;
+	}
+	
+.comments {
+	width: 600px;
+	margin: 0 auto;
+	}
+	
+.comments h3 {
+	margin: 0;
+	}
+	
+.comments h3#reply {
+	margin-top: 15px;
+	}
+	
+.comments ul.commentlist {
+	padding: 0;
+	}
+	
+.comments ul.commentlist li {
+	list-style: none;
+	padding: 8px;
+	margin-bottom: 6px;
+	background: #1e1e1e;
+	border: 1px solid #252525;
+	}
+	
+.comments ul.commentlist li .content p {
+	margin: 0 0 5px;
+	}
+	
+.comments ul.commentlist li .meta {
+	font-size: 11px;
+	}
+	
+.comments ul.commentlist li .meta span {
+	
+	}
+	
+.comments ul.commentlist li .meta #author {
+	
+	}
+	
+.comments ul.commentlist li .meta #author a {
+	
+	}
+	
+.comments ul.commentlist li .meta #author a:hover {
+	
+	}
+	
+.nocomments {
+	text-align: center;
+	color: #363636;
+	font-size: 16px;
+	padding: 10px;
+	}
+
+.comments textarea { 
+	width: 450px;
+	}
+	
+/* LAYER 6 */
+#layer6 {
+	background: #151515;
+	}
+	
+.footer {
+	width: 600px;
+	margin: 0 auto;
+	}
+	
+.footer p {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #232323;
+	}
+	
+.footer a {
+
+	}
+	
+.footer a:hover {
+
+	}

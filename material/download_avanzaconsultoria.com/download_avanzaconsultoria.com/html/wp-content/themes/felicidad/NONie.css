@@ -1,0 +1,9 @@
+#middlepic {
+	position: absolute;
+	height: 128px;
+	width: 540px;
+	margin-left: 179px;
+	background-image: url(images/arboles.jpg);
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
