@@ -1530,6 +1530,7 @@ padding: 10px;
     padding: 10px;
     color: #333;
     height: 200px;
+    resize: none !important;
 }
 .contact input:hover,
 .contact input:focus {
